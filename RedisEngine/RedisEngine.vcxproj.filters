@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RedisAPI">
+      <UniqueIdentifier>{a9670299-307d-4dcb-83d4-e7a3e545a93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RedisEngine">
+      <UniqueIdentifier>{0049a67d-1656-4e3e-a255-940440e79ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{cd0feec6-9826-4142-aeaf-d80622ef869c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hiredis">
+      <UniqueIdentifier>{12b98ce5-f838-4a11-ba08-43c0fb00d5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32_Interop">
+      <UniqueIdentifier>{50b7f095-dc17-46bb-9324-eab56b0a90a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="导出">
+      <UniqueIdentifier>{29a5dab3-8764-452c-aeff-183aa858f5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandHelper">
+      <UniqueIdentifier>{69b5ce7b-40a3-4dd2-973f-97f54231ddf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisAPI.h">
+      <Filter>RedisAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisEngine.h">
+      <Filter>RedisEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSession.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\async.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\dict.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\fmacros.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\hiredis.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\net.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\sds.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\win32_hiredis.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis\zmalloc.h">
+      <Filter>hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\EventLog.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_ANSI.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_APIs.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Assert.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_CommandLine.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Common.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_dlmalloc.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Error.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_EventLog.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_FDAPI.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_fdapi_crt.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Portability.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_PThread.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_QFork.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_QFork_impl.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_RedisLog.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32_rfdmap.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Service.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Signal_Process.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_SmartHandle.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_StackTrace.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_ThreadControl.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_Time.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32_types.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32_types_hiredis.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\Win32_variadicFunctor.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32_winapifamily.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32_wsiocp.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32_wsiocp2.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\win32fixes.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Interop\WS2tcpip.h">
+      <Filter>Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSuite.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleExporter.h">
+      <Filter>导出</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandHelper.h">
+      <Filter>CommandHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\IRedisEngine.h">
+      <Filter>RedisEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisAPI.cpp">
+      <Filter>RedisAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisEngine.cpp">
+      <Filter>RedisEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSuite.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleExporter.cpp">
+      <Filter>导出</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHelper.cpp">
+      <Filter>CommandHelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
